@@ -1,0 +1,15 @@
+[project]
+name = "0109task"
+version = "0.1.0"
+description = "客服自动回复质量评估流水线"
+requires-python = ">=3.10"
+dependencies = [
+    "ragas>=0.4.0",
+    "langchain>=0.2.0",
+    "langchain-openai>=0.1.0",
+    "langchain-core>=0.2.0",
+    "python-dotenv>=1.0.0",
+    "pandas>=2.0.0",
+    "rich>=13.0.0",
+    "openai>=1.0.0",
+]
